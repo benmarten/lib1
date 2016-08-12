@@ -7,6 +7,9 @@
 //
 
 #import "LPViewController.h"
+//#import <lib1/LPTest.h>
+#import "lib1/LPTest.h"
+//#import "LPTest.h"
 
 @interface LPViewController ()
 
@@ -18,6 +21,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    [LPTest log:@"string"];
 }
 
 - (void)didReceiveMemoryWarning
